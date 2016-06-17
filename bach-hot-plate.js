@@ -3,7 +3,7 @@
 */
 
 
-function tema``(size) {
+function tema(size) {
     let emptyPage = Array.apply(null,Array(size*size));
     
     return emptyPage.map((cell,i) => {
